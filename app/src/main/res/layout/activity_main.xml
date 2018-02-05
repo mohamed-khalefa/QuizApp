@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+            <EditText
+                android:id="@+id/Text_field"
+
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:hint="@string/EditTextHint"
+                android:inputType="textCapWords"
+
+                android:paddingLeft="@dimen/marginLeftQ1" />
+
+            <TextView
+
+                android:textColor="@color/colorAccent"
+                android:id="@+id/Question_One"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:paddingRight="@dimen/marginRightQ1"
+                android:text="@string/QuestionOne"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_One_A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerAOfQuestionOne"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_One_B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerBOfQuestionOne"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_One_C"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerCOfQuestionOne"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/Question_Two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:paddingRight="@dimen/marginRightQ1"
+                android:text="@string/QuestionTwo"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                android:textColor="@color/colorAccent"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Two_A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerQuestionTwoA"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Two_B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerQuestionTwoB"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Two_C"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerQuestionTwoC"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+
+            <TextView
+
+                android:textColor="@color/colorAccent"
+                android:id="@+id/Question_Three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:paddingRight="@dimen/marginRightQ1"
+                android:text="@string/QuestionThree"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+
+                />
+
+            <CheckBox
+
+                android:textColor="@color/colorAccent"
+                android:id="@+id/Question_Three_A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerAOfQuestionThreeA"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+
+                android:textColor="@color/colorAccent"
+                android:id="@+id/Question_Three_B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerAOfQuestionThreeB"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Three_C"
+
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerAOfQuestionThreeC"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <TextView
+                android:id="@+id/Question_Four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:paddingRight="@dimen/marginRightQ1"
+                android:text="@string/QuestionFour"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                android:textColor="@color/colorAccent"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Four_A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerAOfQuestionFourA"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                android:textColor="@color/colorAccent"
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Four_B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerAOfQuestionFourB"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Four_C"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerAOfQuestionFourC"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/Question_Five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:paddingRight="@dimen/marginRightQ1"
+                android:text="@string/QuestionFive"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                android:textColor="@color/colorAccent"
+
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Five_A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerQuestionFiveA"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                android:textColor="@color/colorAccent"
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Five_B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerQuestionFiveB"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <CheckBox
+                android:id="@+id/Question_Five_C"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+
+                android:layout_marginLeft="@dimen/marginLeftQ1"
+                android:layout_marginTop="@dimen/marginTopQ1"
+                android:layout_weight="1"
+
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/PaddingLeftOfCheckBox"
+                android:text="@string/AnswerQuestionFiveC"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSizeCheckbox"
+
+                />
+
+            <Button
+                android:id="@+id/SubmitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/marginBottomQ1"
+                android:layout_weight="1"
+                android:text="@string/SubmitButton"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textSize"
+                android:onClick="SubmitOrder"
+
+                android:textColor="@color/colorAccent"
+                 />
+
+            <TextView
+                    android:layout_gravity="center_horizontal"
+                android:id="@+id/order_summary_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

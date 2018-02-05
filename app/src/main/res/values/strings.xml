@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Question1">Question 1 </string>
+    <string name="Question2">Question 2 </string>
+    <string name="Question3">Question 3 </string>
+    <string name="Question4">Question 4 </string>
+    <string name="QuestionOne" > 1. how many times egypt won the african cup </string>
+    <string name="AnswerAOfQuestionOne">6</string>
+    <string name="AnswerBOfQuestionOne">5</string>
+    <string name="AnswerCOfQuestionOne">7</string>
+    <string name="EditTextHint">Enter your name</string>
+
+    <string name="QuestionTwo"> 2. which country won the world cup in 2006 </string>
+    <string name="AnswerQuestionTwoA">Brazil</string>
+    <string name="AnswerQuestionTwoB">Italy</string>
+    <string name="AnswerQuestionTwoC">Germany</string>
+    <string name="QuestionThree"> 3. when was the last time Germany won the world cup </string>
+    <string name="AnswerAOfQuestionThreeA">2006</string>
+    <string name="AnswerAOfQuestionThreeB">2002</string>
+    <string name="AnswerAOfQuestionThreeC">2014</string>
+    <string name="QuestionFour"> 4. how many times won real madrid the champions league </string>
+    <string name="AnswerAOfQuestionFourA">10</string>
+    <string name="AnswerAOfQuestionFourB">12</string>
+    <string name="AnswerAOfQuestionFourC">11</string>
+    <string name="QuestionFive"> 5. who won the best player in the world in 2017 </string>
+    <string name="AnswerQuestionFiveA">Messi</string>
+    <string name="AnswerQuestionFiveB">Ronaldo</string>
+    <string name="AnswerQuestionFiveC">Nymar</string>
+    <string name="SubmitButton">Submit</string>
+</resources>

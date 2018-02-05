@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textSize" >20sp</dimen>
+    <dimen name="marginTopQ1">20dp</dimen>
+    <dimen name="marginLeftQ1">20dp</dimen>
+    <dimen name="marginBottomQ1">20dp</dimen>
+    <dimen name="marginRightQ1">20dp</dimen>
+    <dimen name="textSizeCheckbox">15sp</dimen>
+   <dimen name="PaddingLeftOfCheckBox">25dp</dimen>
+
+</resources>
